@@ -21,7 +21,9 @@ S = zeros(n);
 %
 
 
+Xcovariance = (X'*X) / m;
 
+[U, S, V] = svd(Xcovariance);
 
 
 
