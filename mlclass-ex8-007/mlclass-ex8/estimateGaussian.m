@@ -22,10 +22,10 @@ sigma2 = zeros(n, 1);
 %
 
 
+mu = mean(X)';
 
-
-
-
+% compute the variance (Octave has a built-in function to do that, see: help var)
+sigma2 = var(X, 1)';
 
 
 
